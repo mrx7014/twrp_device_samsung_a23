@@ -65,9 +65,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_XZ_UTILS=1
     export FOX_USE_SED_BINARY=1
     export OF_ENABLE_LPTOOLS=1
-    export OF_KEEP_DM_VERITY_FORCED_ENCRYPTION=1
-    export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
-    export OF_FIX_DECRYPTION_ON_DATA_MEDIA=1
     export OF_UNBIND_SDCARD_F2FS=1
 
 	# Let's see which are our build vars
