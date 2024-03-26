@@ -162,3 +162,6 @@ TWRP_EVENT_LOGGING := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_LOGD := true
+
+#PB Torch
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
