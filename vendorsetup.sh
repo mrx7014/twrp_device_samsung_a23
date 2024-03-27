@@ -45,6 +45,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
 	export TARGET_DEVICE_ALT="a23"
+        export LZMA_RAMDISK_TARGETS="recovery"
  
 	# Let's see which are our build vars
     if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
